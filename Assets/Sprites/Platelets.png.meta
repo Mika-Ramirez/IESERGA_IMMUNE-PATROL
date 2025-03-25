@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Platelets_0: -4815492092604148962
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

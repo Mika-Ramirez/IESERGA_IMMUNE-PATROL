@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Activator
+  - Note
   layers:
   - Default
   - TransparentFX
@@ -49,4 +51,7 @@ TagManager:
     locked: 0
   - name: Oxygen
     uniqueID: 212464505
+    locked: 0
+  - name: Notes
+    uniqueID: 1955467641
     locked: 0

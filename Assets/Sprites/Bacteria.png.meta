@@ -274,7 +274,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bacteria_0: 7258468774770224089
+      Bacteria_1: -1799354182350750853
+      Bacteria_2: 6445302985642933610
+      Bacteria_3: -2823914006307105779
+      Bacteria_4: -209513511477277554
+      Bacteria_5: 9113101218544823779
+      Bacteria_6: 3260449236814232872
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
