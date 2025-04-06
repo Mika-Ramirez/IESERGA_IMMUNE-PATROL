@@ -19,15 +19,15 @@ public class CharacterSwitcher : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1)) // Press 1
+        if (Input.GetKeyDown(KeyCode.Q)) // Press 1
         {
             SwitchCharacter(rbc);
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha2)) // Press 2
+        else if (Input.GetKeyDown(KeyCode.W)) // Press 2
         {
             SwitchCharacter(wbc);
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha3)) // Press 3
+        else if (Input.GetKeyDown(KeyCode.E)) // Press 3
         {
             SwitchCharacter(platelet);
         }
