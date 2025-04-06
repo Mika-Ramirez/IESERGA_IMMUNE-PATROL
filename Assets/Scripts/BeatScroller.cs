@@ -10,7 +10,8 @@ public class BeatScroller : MonoBehaviour
     void Start()
     {
         beatSpeed = beatsPerMinute / 60f;
-        GameManager.OnGameStart += StartScrolling; // Subscribe to GameManager event
+        GameManager.startPlaying += StartScrolling; // Subscribe to GameManager event
+        GameManager.stopPlaying += StopScrolling;
     }
 
     void Update()
@@ -31,8 +32,14 @@ public class BeatScroller : MonoBehaviour
         hasStarted = true;
     }
 
+    private void StopScrolling()
+    {
+        hasStarted = false;
+    }
+
     private void OnDestroy()
     {
-        GameManager.OnGameStart -= StartScrolling; // Unsubscribe to avoid memory leaks
+        GameManager.startPlaying -= StartScrolling; // Unsubscribe to avoid memory leaks
+        GameManager.stopPlaying -= StopScrolling;
     }
 }
